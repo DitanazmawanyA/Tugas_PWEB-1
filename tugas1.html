@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Order</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .container {
+            width: 800px;
+            margin: 30px auto;
+        }
+
+        h1 {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-bottom: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+
+        th {
+            background-color: #20b879;
+            color: white;
+            padding: 12px;
+            border: 1px solid white;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .merah {
+            background-color: #f5b7b1;
+        }
+
+        .kuning {
+            background-color: #d7f5c8;
+        }
+
+        .total {
+            background-color: #eeeeee;
+            font-weight: bold;
+        }
+
+        .catatan {
+            background-color: #e8daef;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>ONLINE ORDER</h1>
+
+    <table>
+        <tr>
+            <th>NO</th>
+            <th>Nama Barang</th>
+            <th>QTY</th>
+            <th>Harga (Rp)</th>
+            <th>Email Account Note</th>
+        </tr>
+
+        <tr class="merah">
+            <td>1</td>
+            <td>DEAM 2GB</td>
+            <td>1</td>
+            <td>45.000</td>
+            <td rowspan="5" class="catatan">
+                <table>
+                    <tr>
+                        <th>Mail Box</th>
+                        <th>10 GB</th>
+                    </tr>
+                    <tr>
+                        <td>Webmail</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>POP3</td>
+                        <td>No</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="kuning">
+            <td>2</td>
+            <td>DEAM/COMBO 4GB</td>
+            <td>2</td>
+            <td>50.000</td>
+        </tr>
+
+        <tr class="merah">
+            <td>3</td>
+            <td>COMBO 8GB</td>
+            <td>1</td>
+            <td>60.000</td>
+        </tr>
+
+        <tr class="kuning">
+            <td>4</td>
+            <td>APACER 4GB / 8GB / 16GB</td>
+            <td>1</td>
+            <td>48.000</td>
+        </tr>
+
+        <tr class="merah">
+            <td>5</td>
+            <td>SEAGATE 250 GB SATA - RESMI</td>
+            <td>1</td>
+            <td>741.000</td>
+        </tr>
+
+        <tr class="total">
+            <td colspan="2">TOTAL BAYAR</td>
+            <td>6</td>
+            <td>994.000</td>
+            <td></td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
